@@ -24,16 +24,18 @@
 			</div>
 		</header>
 		<nav class="menu">
-				<ul>
-					<li><a href="#">inicio</a></li>
-					<li><a href="#">sobre</a></li>
-					<li><a href="#">frases</a></li>
-					<li><a href="#">batata</a></li>
-				</ul>
-			</nav>
+			<ul>
+				<li><a href="#">inicio</a></li>
+				<li><a href="#">sobre</a></li>
+				<li><a href="#">frases</a></li>
+				<li><a href="#">batata</a></li>
+			</ul>
+		</nav>
 		<div class="buscar">
-			<input type="text" name="buscar" placeholder="Pesquisar aqui">
-			<button><i class="fas fa-search fa-lg"></i></button>
+			<form method="_GET">
+				<button><i class="fas fa-search fa-lg"></i></button>
+				<input type="text" name="buscar" placeholder="Pesquisar aqui">
+			</form>
 		</div>
 		<section>
 			<div class="conteudo">
@@ -103,17 +105,14 @@
 		<aside>
 			<div class="contato">
 				<h3>Contatos</h3>
-				<ol>
-					<td>E-Mail:</td>
-					<dd>mauriciopdeo@hotmail.com</dd>
-					<td>Celular:</td>
-					<dd>(19)971076062</dd>
-					<td>Instagram:</td>
-					<dd>sr_maumau</dd>
-				</ol>
+				<ul>
+					<dd><i class="far fa-envelope fa-lg"></i>mauriciopdeo@hotmail.com</dd>
+					<dd><i class="fas fa-mobile-alt fa-lg"></i> (19)971076062</dd>
+					<li><i class="fab fa-instagram fa-lg"></i>sr_maumau</li>
+				</ul>
 			</div>
 			<div class="email">
-				<form>
+				<form method="_POST">
 					<p>Se registrar para receber novidades</p>
 					<div>
 						<input type="name" name="nome" placeholder="Seu nome">
