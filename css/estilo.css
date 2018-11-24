@@ -1,0 +1,167 @@
+*{
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	box-sizing: border-box;
+	outline: none;
+	border: none;
+	list-style: none;
+	text-decoration: none;
+}
+body{
+	background-color: #131313;
+	transition-duration: 0.4s;
+}
+.topo{
+	width: 100%;
+	float: left;
+	height: 150px;
+	padding: 0 5%;
+}
+.logo{
+	cursor: pointer;
+	width: 40%;
+	margin-top: 0px;
+	font-size: 2em;
+	float: left;
+	color: #fff602;
+	text-shadow: 1px 1px;
+}
+.logo h1:hover{
+	font-size: 2.2em;
+	transition-duration: 2s;
+}
+.menu{
+	margin-top: 30px;
+	float: right;
+	display: none;
+	width: 100%;
+}
+.menu li{
+	float: right;
+	text-align: center;
+}
+.menu a{
+	color: #fff602;
+	text-shadow: 1px 1px;
+	font-size: 1.4em;
+	padding: 10px 20px;
+	border-left: 1px solid #fff602;
+	border-right: 1px solid #fff602;
+}
+.menu a:hover{
+	transition-duration: 0.7s;
+	transform-style: flat;
+	font-size: 1.6em;
+	color: #f9f9f9;
+	background-color: #363636;
+	border-left: 1px solid #fff;
+	border-right: 1px solid #fff;
+}
+.btn-f{
+	display: none;
+}
+.btn-menu, .btn-f{
+	margin: 0;
+	margin-top: 100px;
+	float: right;
+	color: #fff602;
+	background-color: #131313;
+	text-shadow: 1px 1px;
+	cursor: pointer;
+}
+.buscar{
+	float: right;
+}
+.buscar input{
+	margin-top: 20px;
+	border-top: 1px solid #000;
+	border-left: 1px solid #000;
+	border-bottom: 1px solid #000;
+	border-radius: 5px 0px 0px 5px;
+	float: left;
+	margin-right: 0;
+	background-color: #fff602;
+	color: #000;
+	padding: 10px 15px;
+}
+.buscar button{
+	margin-right: 40px;
+	margin-top: 20px;
+	border-top: 1px solid #000;
+	border-right: 1px solid #000;
+	border-bottom: 1px solid #000;
+	border-radius: 0px 5px 5px 0px;
+	float: right;
+	margin-left: 0;
+	color: #000;
+	background-color: #fff602;
+	padding: 10px 15px;
+}
+.buscar button:hover{
+	border-color: #fff602;
+	color: #fff602;
+	background-color: #000;
+}
+.buscar input:hover{
+	border-color: #fff602;
+	color: #fff602;
+	background-color: #000;
+}
+.buscar input:focus{
+	border-color: #fff602;
+	color: #fff602;
+	background-color: #000;
+}
+section{
+	width: 100%;
+	float: left;
+	padding: 10px 5%;
+}
+.conteudo{
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 10px;
+	margin-top: 20px;
+	border: 1px solid #c1c1c1;
+}
+.conteudo h2{
+	text-align: center;
+	color: #131313;
+	text-shadow: 1px 1px;
+	padding: 5px;
+	font-size: 1.4em;
+}
+.conteudo p{
+	text-align: justify;
+}
+.conteudo span{
+	color: #ccc;
+}
+.contato, .email{
+	width: 40%;
+	float: right;
+	background-color: #fff;
+	padding: 5px;
+	border-radius: 5px;
+	margin-top: 30px;
+	margin-right: 40px;
+	border: 1px solid #c1c1c1;
+}
+.contato h3{
+	text-align: center;
+	color: #131313;
+	text-shadow: 1px 1px;
+	padding: 5px;
+	font-size: 1.2em;
+}
+.rodape{
+	text-align: center;
+	margin-top: 40px;
+	float: left;
+	width: 100%;
+	padding: 5px 5%;
+	background-color: #fff602;
+	color: #131313;
+}
