@@ -14,9 +14,10 @@ body{
 	transition-duration: 0.4s;
 }
 .topo{
+	margin: 0;
 	width: 100%;
 	float: left;
-	height: 150px;
+	height: 140px;
 	padding: 0 5%;
 }
 .logo{
@@ -39,21 +40,22 @@ body{
 	width: 100%;
 }
 .menu li{
-	float: right;
+	float: left;
+	padding: 5px 15px;
+	width: 100%;
 	text-align: center;
 }
 .menu a{
+	float: right;
 	color: #fff602;
 	text-shadow: 1px 1px;
 	font-size: 1.4em;
 	padding: 10px 20px;
+	background-color: #363636;
 	border-left: 1px solid #fff602;
 	border-right: 1px solid #fff602;
 }
 .menu a:hover{
-	transition-duration: 0.7s;
-	transform-style: flat;
-	font-size: 1.6em;
 	color: #f9f9f9;
 	background-color: #363636;
 	border-left: 1px solid #fff;
@@ -64,7 +66,7 @@ body{
 }
 .btn-menu, .btn-f{
 	margin: 0;
-	margin-top: 100px;
+	margin-top: 110px;
 	float: right;
 	color: #fff602;
 	background-color: #131313;
@@ -72,31 +74,30 @@ body{
 	cursor: pointer;
 }
 .buscar{
+	margin-top: 10px;
+	width: 100%;
 	float: right;
 }
-.buscar input{
-	margin-top: 20px;
-	border-top: 1px solid #000;
-	border-left: 1px solid #000;
-	border-bottom: 1px solid #000;
-	border-radius: 5px 0px 0px 5px;
-	float: left;
-	margin-right: 0;
-	background-color: #fff602;
-	color: #000;
-	padding: 10px 15px;
-}
 .buscar button{
-	margin-right: 40px;
+	margin-right: 5%;
 	margin-top: 20px;
 	border-top: 1px solid #000;
 	border-right: 1px solid #000;
 	border-bottom: 1px solid #000;
-	border-radius: 0px 5px 5px 0px;
 	float: right;
-	margin-left: 0;
 	color: #000;
 	background-color: #fff602;
+	padding: 10px 15px;
+}
+.buscar input{
+	width: 180px;
+	margin-top: 20px;
+	border-top: 1px solid #000;
+	border-left: 1px solid #000;
+	border-bottom: 1px solid #000;
+	float: right;
+	background-color: #fff602;
+	color: #000;
 	padding: 10px 15px;
 }
 .buscar button:hover{
@@ -122,7 +123,6 @@ section{
 .conteudo{
 	background-color: #fff;
 	padding: 20px;
-	border-radius: 10px;
 	margin-top: 20px;
 	border: 1px solid #c1c1c1;
 }
@@ -140,28 +140,74 @@ section{
 	color: #ccc;
 }
 .contato, .email{
-	width: 40%;
+	width: 100%;
 	float: right;
-	background-color: #fff;
+	background-color: #fff602;
 	padding: 5px;
-	border-radius: 5px;
-	margin-top: 30px;
-	margin-right: 40px;
-	border: 1px solid #c1c1c1;
+	margin-top: 20px;
 }
-.contato h3{
+.contato h3, .email p{
 	text-align: center;
 	color: #131313;
-	text-shadow: 1px 1px;
+	text-shadow: 1px 0px;
 	padding: 5px;
-	font-size: 1.2em;
+	font-size: 1em;
+}
+.contato li{
+	float: left;
+}
+.contato i{
+	margin-bottom: 20px;
+	margin-right: 10px;
+	margin-left: 5px;
+}
+.email input{
+	padding: 5px 10px;
+	border: 1px solid #000;
+	margin: 5px;
+	background-color: #fff602;
+}
+.i-rodape{
+	width: 100%;
+	float: left;
+	height: 50px;
+}
+.i-rodape li{
+	margin-top: 30px;
+	margin-left: 10px;
+	float: left;
+}
+.i-rodape a{
+	color: #fff602;
+	text-shadow: 1px 0px;
+	font-size: 1em;
+	padding: 5px 15px;
+	background-color: #131313;
+	border: 1px solid #fff602;
 }
 .rodape{
 	text-align: center;
-	margin-top: 40px;
+	margin-top: 30px;
 	float: left;
 	width: 100%;
-	padding: 5px 5%;
+	padding: 0;
+	font-size: 0.8em;
 	background-color: #fff602;
 	color: #131313;
+}
+.social{
+	display: none;
+	position: fixed;
+	float: left;
+	bottom: 0;
+}
+@media screen (min-width: 500px){
+	.menu a:hover{
+		transition-duration: 0.7s;
+		font-size: 1.6em;
+		color: #f9f9f9;
+		background-color: #363636;
+		border-left: 1px solid #fff;
+		border-right: 1px solid #fff;
+	}
 }
